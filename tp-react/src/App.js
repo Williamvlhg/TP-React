@@ -20,7 +20,7 @@ function App() {
             <Route path="/mentions" element={<Mentions />} />
   
         </Routes>
-        <Header.Navbar />
+        <Header.Navbar  />
         </BrowserRouter>
 
 

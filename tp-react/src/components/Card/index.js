@@ -1,5 +1,6 @@
 import { Plat } from './Plat';
 import { Banner } from './Banner';
+import { BannerSM } from './BannerSM';
 
 const Card = ({ children }) => {
 
@@ -20,4 +21,5 @@ const Card = ({ children }) => {
 
 Card.Plat = Plat 
 Card.Banner = Banner;
+Card.BannerSM = BannerSM;
 export default Card;

@@ -7,10 +7,10 @@ export const Navbar = () => {
 
         <nav>
             <ul>
-                <li><Link to="/">Menu</Link><ul><li>Sandwitches</li><li>Entrées</li><li>Hamburgers</li><li>Plats</li><li>Desserts</li></ul></li>
-                <li><Link to="/about">Avis</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
-                <li><Link to="/mentions">Mentions</Link></li>
+                <li ><Link to="/">Menu</Link><ul><li>Sandwitchs</li><li>Entrées</li><li>Hamburgers</li><li>Plats</li><li>Boissons</li></ul></li>
+                <li ><Link to="/avis">Avis</Link></li>
+                <li ><Link to="/contact">Contact</Link></li>
+                <li ><Link to="/mentions">Mentions</Link></li>
             </ul>
 
 

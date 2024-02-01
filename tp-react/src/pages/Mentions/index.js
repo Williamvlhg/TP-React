@@ -1,7 +1,9 @@
+import Card from "../../components/Card";
+import Logo from "../../assets/LogoTHUYlg.png";
 const Mentions = () => {
     return (
         <div>
-            <h1>Mentions Légales</h1>
+            <Card.Banner Logo={Logo} />
         </div>
     );
 };

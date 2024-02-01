@@ -17,16 +17,18 @@
   .container {
     max-width: 300px;
     margin: 0 auto;
+    margin-top: 2dvh;
 
   }
 
 
 
   .card {
-    background-color: white;
+    background-color: rgb(238, 238, 238);
     border: 1px solid #bacdd8;
     padding: 8px;
     border-radius: 12px;
+
   }
 
   .name {
@@ -35,7 +37,7 @@
     margin-top: 16px;
   }
   
-  /* Style p element */
+
   p {
     font-size: 14px;
     color: #7f8c9b;
@@ -43,6 +45,7 @@
   }
 
   .card__details {
-    /* Add space around the details */
+
     padding: 16px 8px 8px 8px;
+
   }

@@ -1,7 +1,11 @@
+import Card from "../../components/Card";
+import Logo from "../../assets/LogoTHUYlg.png";
+import { Content } from "../../components/Content";
 const Contact = () => {
     return (
         <div>
-            <h1>Contact</h1>
+            <Card.BannerSM Logo={Logo} />
+            <Content title="Contact" textcontent="Lorem Ipsum" />
         </div>
     );
 };
