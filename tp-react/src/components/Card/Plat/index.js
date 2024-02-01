@@ -3,7 +3,7 @@ export const Plat = ({ Plat,contenu, image, prix}) => {
       <div className="Plat">
       
           <h4>{Plat}</h4>
-          <img className="image-plat">{image}</img>
+          <img className="image-plat" src={image} alt="plat"></img>
         <hr/>
         <p className="contenu-plat">{contenu}</p>
         
