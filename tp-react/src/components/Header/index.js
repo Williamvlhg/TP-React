@@ -1,5 +1,5 @@
 
-
+import { Navbar } from "./Navbar";
 const Header = ({ children }) => {
 
     return (
@@ -12,5 +12,7 @@ const Header = ({ children }) => {
 
 
 }
+
+Header.Navbar = Navbar;
 
 export default Header;
