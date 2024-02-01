@@ -1,0 +1,86 @@
+.Menu {
+  background-color: gainsboro;
+}
+
+.menu {
+  .hero {
+    margin-bottom: 0px;
+  }
+
+  .menucard-container {
+    padding: 16px 24px 24px;
+    max-width: 1130px;
+    margin: 0 auto;
+    position: relative;
+    flex: auto;
+
+    &.order-not-available {
+      margin: 0;
+
+      @media (min-width: 1005px) {
+        margin: 0 auto;
+      }
+    }
+
+    .menucard__category-image-container {
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 1px 1px 0 0;
+      height: 88px;
+
+      @media (min-width: 1005px) {
+        height: 133px;
+      }
+    }
+
+    .menucat {
+      /* ... */
+
+      .addtobasket:hover {
+        background: #eef7fa;
+        box-shadow: 0 1px 1px #cfcac4;
+        cursor: pointer;
+      }
+
+      .addtobasket {
+        /* ... */
+
+        &.order-not-available {
+          .product-order-button:before {
+            display: none;
+          }
+
+          &:hover {
+            cursor: auto;
+          }
+        }
+      }
+    }
+
+    .meal-wrapper {
+      max-width: calc(100% - 40px);
+      margin: 0 2% 0 0;
+      padding: 8px 12px;
+      flex: 1;
+    }
+
+    .meal__product-image-container {
+      @media (min-width: 1005px) {
+        flex: 0 0 100px;
+        height: 100px;
+        width: 100px;
+      }
+
+      /* ... */
+    }
+  }
+
+  .menucard-listing {
+    display: flex;
+  }
+
+  .templaterevamped-shoppingcartna {
+    /* ... */
+  }
+}
