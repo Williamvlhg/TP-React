@@ -1,15 +1,13 @@
-import Header from '../../components/Header'
-
 import Card from "../../components/Card";
 
 const Home = () => {
     return (
         <div>
-            <Header.Navbar />
+
 
             <Card.Banner />
             
-            <Card.Plat  Plat= 'Poulet' prix = '15€90' contenu ='Poulet, Riz, Sauce'/>
+            <Card.Plat Title='Poulet' Content="Riz Sauce Poulet" Img="https://images.radio-canada.ca/v1/alimentation/recette/4x3/0010-cuisses-poulet-cinq-epices.jpg" Prix="10"/>
 
             
             

@@ -1,17 +1,35 @@
 import './index.css';
+export const Plat = ({Title, Content, Img, Prix}) => {
 
-export const Plat = ({ Plat,contenu, image, prix}) => {
     return (
-      <div className="Menu">
-      
-          <h4>{Plat}</h4>
-          <img className="image-plat" src={image} alt="plat"></img>
-        <hr/>
-        <p className="contenu-plat">{contenu}</p>
-        
-        <span className ="prix-plat">{prix}</span>
-        
+        <div className="container">
+
+       
+        <div className="card">
+          <img className="cardImg" src={Img} alt="imagecard"></img>
+    
+
+          <div className="card__details">
+    
+
+            <div className="name">{Title}</div>
+    
+            <p> {Content} </p>
+
+            <span> {Prix}€ </span>
+    
+
+        </div>
+    
+    
+        </div>
       </div>
-    )
-  }
-   
+    );
+
+
+
+
+
+}
+
+
