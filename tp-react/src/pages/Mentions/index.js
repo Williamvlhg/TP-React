@@ -1,9 +1,17 @@
 import Card from "../../components/Card";
-import Logo from "../../assets/LogoTHUYlg.png";
+import Logo from "../../assets/LogoTHUYlg.png"; 
+import { Content } from "../../components/Content";
+import'./index.css';
 const Mentions = () => {
-    return (
+    return (      
         <div>
-            <Card.Banner Logo={Logo} />
+            <Card.BannerSM Logo={Logo} />
+            <Content title = "Mention légal" textcontent="Thuy"/>
+            <div className="test">
+                <p >THUY - Street Food Vietnamienne</p>
+                <p > 31 Rue de Reuilly, 75012 Paris  </p>
+                <p >75012 Paris</p>
+            </div>
         </div>
     );
 };

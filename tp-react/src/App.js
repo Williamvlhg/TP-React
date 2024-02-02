@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="App">
         <BrowserRouter>
+
         <Routes>
 
             <Route path="/" element={<Home />} />
@@ -21,6 +22,7 @@ function App() {
   
         </Routes>
         <Header.Navbar  />
+
         </BrowserRouter>
 
 
